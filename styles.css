@@ -1,0 +1,87 @@
+:root {
+    --default-background-color: black;
+    --default-color: white;
+    --default-font-family: 'Courier New', Courier, monospace;
+    --default-font-size: 14px;
+}
+
+::selection {
+    background-color: var(--default-color);
+    color: var(--default-background-color);
+}
+
+html {
+    background-color: var(--default-background-color);
+    color: var(--default-color);
+    font-family: var(--default-font-family);
+    font-size: var(--default-font-size);
+}
+
+header {
+    display: flex;
+    border-bottom: 1px solid var(--default-color);
+}
+
+.site-logo {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: right;
+    width: 33%;
+}
+
+.title-subtitle {
+    display: block;
+    width: 33%;
+}
+
+.site-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.site-subtitle {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.light-button {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: right;
+    width: 33%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+aside {
+    flex: 1 1 auto;
+    padding: 2ch;
+}
+
+article {
+    flex: 1 1 75%;
+    padding: 2ch;
+    border-left: 1px solid var(--default-color);
+}
+
+.main-article-title {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 12px;
+}
+
+.main-article-content {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer {
+    text-align: center;
+}
