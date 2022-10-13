@@ -22,17 +22,14 @@ header {
     border-bottom: 1px solid var(--default-color);
 }
 
-.site-logo {
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: right;
-    width: 33%;
+header > * {
+    width: 100%;
 }
 
-.title-subtitle {
-    display: block;
-    width: 33%;
+.site-logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2ch;
 }
 
 .site-title {
@@ -47,11 +44,10 @@ header {
 }
 
 .light-button {
-    display: block;
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 2ch;
     text-align: right;
-    width: 33%;
 }
 
 main {
